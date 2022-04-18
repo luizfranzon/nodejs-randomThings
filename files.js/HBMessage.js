@@ -1,7 +1,7 @@
 // Usage: node happyBirthday.js Destinatario Remetende
 
 const personName = process.argv[2]
-const forWho = process.argv[3]
+const fromWho = process.argv[3]
 
 console.log(' ')
 console.log(`${personName}, hoje é seu dia! Parabéns!
@@ -17,5 +17,5 @@ Que Deus abençoe você ${personName} e ilumine seu caminho assim como você faz
 Serei para sempre sua amiga.
 Te amo, ${personName}!
 
-Com muito amor. ${forWho}`)
+Com muito amor. ${fromWho}`)
 console.log(' ')
